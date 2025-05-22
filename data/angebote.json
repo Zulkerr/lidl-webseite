@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "titel": "Milch 1L",
+    "bild": "milch.jpg",
+    "preis": "0,99 €",
+    "rabatt": "-20%"
+  },
+  {
+    "id": 2,
+    "titel": "Brot 500g",
+    "bild": "brot.jpg",
+    "preis": "1,49 €",
+    "rabatt": "-10%"
+  },
+  {
+    "id": 3,
+    "titel": "Äpfel 1kg",
+    "bild": "aepfel.jpg",
+    "preis": "2,99 €",
+    "rabatt": "-15%"
+  }
+]

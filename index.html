@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lidl-ähnliche Angebote</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+           <a href="index.html">LIDL</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="angebote.html">Angebote</a></li>
+                <li><a href="kategorien.html">Kategorien</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class = "slider">
+            <button class="slider-button left">←</button>
+
+            <div class="slider-track-wrapper">
+                <div class="slider-track">
+                    <div class="slide"><img src="images/angebot1.jpg" alt="1"></div>
+                    <div class="slide"><img src="images/angebot2.jpg" alt="2"></div>
+                    <div class="slide"><img src="images/angebot3.jpg" alt="3"></div>
+                    <div class="slide"><img src="images/milch.jpg" alt="4"></div>
+                </div>
+            </div>
+            <button class="slider-button right">→</button>
+        </section>
+
+
+        <section class="angebote">
+            <h2>Angebote der Woche</h2>
+            <div class="product-liste" id="produktListe">
+                <!-- Produkte werden hier per JS eingefügt -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Dein Lidl-Shop</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
